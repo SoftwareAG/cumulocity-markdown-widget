@@ -1,6 +1,9 @@
 {
   "name": "gp-lib-markdown-widget",
   "version": "1.0.0",
+  "description": "This is an Angular 8 library widget that parses the mardown text to html. ",
+  "author": "Khushi Khanna - Software AG, Global Presales",
+  "license": "Apache 2.0",
   "peerDependencies": {
     "@angular/common": "^8.2.14",
     "@angular/core": "^8.2.14"
