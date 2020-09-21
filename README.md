@@ -9,10 +9,10 @@ To deliver the expected functionality one need to add the markdown text in the c
 **Note:** If you don't have Runtime Widget Loader in your Appbuilder or cockpit application then please follow [Runtime Widget Loader documentation(Build Instructions)](https://github.com/SoftwareAG/cumulocity-runtime-widget-loader) before proceeding further.
 
 1. While on a dashboard screen, select the `More...` -> `Install Widget` option in the action bar
-2. Upload a widget zip file (Created using the [Runtime Widget Template](https://github.com/SoftwareAG/cumulocity-runtime-widget))
+2. Upload a widget zip file (Download the markdown runtime widget [Runtime Widget](https://github.com/SoftwareAG/cumulocity-runtime-widget))
 3. Start using your widget
 
-## Widget Installation through Application Deployment
+## Library Widget Installation (With Application Deployment)
   
 **Supported Cumulocity Environments:**
   
