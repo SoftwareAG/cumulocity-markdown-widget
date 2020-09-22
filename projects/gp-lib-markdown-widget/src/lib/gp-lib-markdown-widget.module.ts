@@ -23,7 +23,7 @@ import { FormsModule } from '@angular/forms';
 import { MarkdownModule } from 'ngx-markdown';
 import { GpLibMarkdownWidgetComponent } from './gp-lib-markdown-widget.component';
 import { GpMarkdownConfigComponent } from './gp-lib-markdown-widget.config';
-
+import * as preview from './preview-image';
 @NgModule({
   declarations: [GpLibMarkdownWidgetComponent, GpMarkdownConfigComponent],
   imports: [
@@ -43,6 +43,7 @@ import { GpMarkdownConfigComponent } from './gp-lib-markdown-widget.config';
         id: 'markdown.widget',
         label: 'Markdown Widget',
         description: 'Display Markdown Documentation',
+        previewImage: preview.previewImage,
         component: GpLibMarkdownWidgetComponent,
         configComponent: GpMarkdownConfigComponent,
         data: {
