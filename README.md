@@ -4,15 +4,12 @@
 This is an Angular 8 library widget that parses the mardown text to html. 
 To deliver the expected functionality one need to add the markdown text in the configuration.
 
+
 ## Runtime Widget Installation (Without Application Deployment)
 
-**Note:** If you don't have Runtime Widget Loader in your Appbuilder or cockpit application then please follow [Runtime Widget Loader documentation(Build Instructions)](https://github.com/SoftwareAG/cumulocity-runtime-widget-loader) before proceeding further.
+* This widget support runtime deployment. Download [Runtime Binary](https://labcase.softwareag.com/projects/gp-markdown-widget/storage/show/Releases/Runtime%20Widget/gp-markdown-widget-1.1.0.zip) and follow runtime deployment instruction from [here](https://github.com/SoftwareAG/cumulocity-runtime-widget-loader)
 
-1. While on a dashboard screen, select the `More...` -> `Install Widget` option in the action bar
-2. Upload a widget zip file (Download the markdown runtime widget [Runtime Widget](https://github.com/SoftwareAG/cumulocity-runtime-widget))
-3. Start using your widget
-
-## Library Widget Installation (With Application Deployment)
+## Installation of widget through Appbuilder or Cockipt Deployment
   
 **Supported Cumulocity Environments:**
   

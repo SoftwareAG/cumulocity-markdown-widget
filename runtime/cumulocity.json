@@ -1,0 +1,12 @@
+{
+  "name": "Markdown Widget",
+  "contextPath": "gp-markdown-widget",
+  "key": "gp-markdown-widget-application-key",
+  "contentSecurityPolicy": "default-src 'self'",
+  "icon": {
+    "class": "fa fa-file-text-o"
+  },
+  "manifest": {
+    "noAppSwitcher": true
+  }
+}

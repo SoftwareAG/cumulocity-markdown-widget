@@ -18,7 +18,7 @@
 
 import { NgModule } from '@angular/core';
 import { HOOK_COMPONENTS, CoreModule } from '@c8y/ngx-components';
-import { BrowserModule } from '@angular/platform-browser';
+
 import { FormsModule } from '@angular/forms';
 import { MarkdownModule } from 'ngx-markdown';
 import { GpLibMarkdownWidgetComponent } from './gp-lib-markdown-widget.component';
@@ -27,7 +27,6 @@ import * as preview from './preview-image';
 @NgModule({
   declarations: [GpLibMarkdownWidgetComponent, GpMarkdownConfigComponent],
   imports: [
-    BrowserModule,
     FormsModule,
     CoreModule,
     MarkdownModule.forRoot(),
