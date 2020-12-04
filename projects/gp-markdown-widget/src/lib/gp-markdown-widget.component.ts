@@ -15,6 +15,20 @@
 * See the License for the specific language governing permissions and
 * limitations under the License.
  */
-export const environment = {
-  production: true
-};
+
+import { Component, OnInit, Input, ViewEncapsulation} from '@angular/core';
+
+@Component({
+  selector: 'lib-gp-markdown-widget',
+  templateUrl: './gp-markdown-widget.component.html',
+  styleUrls: ['./gp-markdown-widget.component.css'],
+  encapsulation: ViewEncapsulation.None
+})
+export class GpMarkdownWidgetComponent implements OnInit {
+  @Input() config;
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}

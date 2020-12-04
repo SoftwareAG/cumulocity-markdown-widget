@@ -16,12 +16,21 @@
 * limitations under the License.
  */
 
-import { Injectable } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
-@Injectable({
-  providedIn: 'root'
+@Component({
+  selector: 'lib-gp-markdown-config',
+  templateUrl: './gp-markdown-widget.config.html',
+  styleUrls: ['./gp-markdown-widget.config.css']
 })
-export class GpLibMarkdownWidgetService {
 
-  constructor() { }
+export class GpMarkdownConfigComponent implements OnInit {
+
+@Input() config: any = {};
+
+  constructor() {}
+
+  ngOnInit() {
+  }
+
 }

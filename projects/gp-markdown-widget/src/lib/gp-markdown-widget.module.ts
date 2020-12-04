@@ -21,20 +21,20 @@ import { HOOK_COMPONENTS, CoreModule } from '@c8y/ngx-components';
 
 import { FormsModule } from '@angular/forms';
 import { MarkdownModule } from 'ngx-markdown';
-import { GpLibMarkdownWidgetComponent } from './gp-lib-markdown-widget.component';
-import { GpMarkdownConfigComponent } from './gp-lib-markdown-widget.config';
+import { GpMarkdownWidgetComponent } from './gp-markdown-widget.component';
+import { GpMarkdownConfigComponent } from './gp-markdown-widget.config';
 import * as preview from './preview-image';
 @NgModule({
-  declarations: [GpLibMarkdownWidgetComponent, GpMarkdownConfigComponent],
+  declarations: [GpMarkdownWidgetComponent, GpMarkdownConfigComponent],
   imports: [
     FormsModule,
     CoreModule,
     MarkdownModule.forRoot(),
   ],
-  exports: [GpLibMarkdownWidgetComponent, GpMarkdownConfigComponent],
-  entryComponents: [GpLibMarkdownWidgetComponent, GpMarkdownConfigComponent],
+  exports: [GpMarkdownWidgetComponent, GpMarkdownConfigComponent],
+  entryComponents: [GpMarkdownWidgetComponent, GpMarkdownConfigComponent],
   providers: [
-    GpLibMarkdownWidgetComponent,
+    GpMarkdownWidgetComponent,
     {
     provide: HOOK_COMPONENTS,
     multi: true,
@@ -43,7 +43,7 @@ import * as preview from './preview-image';
         label: 'Markdown Widget',
         description: 'Display Markdown Documentation',
         previewImage: preview.previewImage,
-        component: GpLibMarkdownWidgetComponent,
+        component: GpMarkdownWidgetComponent,
         configComponent: GpMarkdownConfigComponent,
         data: {
             ng1: {
@@ -58,4 +58,4 @@ import * as preview from './preview-image';
     }
   }]
 })
-export class GpLibMarkdownWidgetModule { }
+export class GpMarkdownWidgetModule { }

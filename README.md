@@ -54,12 +54,12 @@ To deliver the expected functionality one need to add the markdown text in the c
     Installation command:  ```npm i ngx-markdown@8.2.1 ``` 
 
 
-2. Grab the Markdown Widget **[Latest Release Binary](https://labcase.softwareag.com/projects/gp-markdown-widget/storage/show/Releases/gp-lib-markdown-widget-1.0.0.tgz)**
+2. Grab the Markdown Widget **[Latest Release Binary](https://labcase.softwareag.com/projects/gp-markdown-widget/storage/show/Releases/gp-markdown-widget-1.0.0.tgz)**
 
 3. Install the Binary file in app builder.
 
 ```
-npm i <binary  file  path>/gp-lib-markdown-widget-1.0.0.tgz
+npm i <binary  file  path>/gp-markdown-widget-1.0.0.tgz
 ```
 
 4. Open index.less located at /cumulocity-app-builder/ui-assets/
@@ -70,17 +70,17 @@ npm i <binary  file  path>/gp-lib-markdown-widget-1.0.0.tgz
 @import '~@c8y/style/main.less';
 @import '~@c8y/style/extend.less';
 ```
-6. Import GpLibMarkdownWidgetModule in app.module.ts and also place the imported Module under `@NgModule`.
+6. Import GpMarkdownWidgetModule in app.module.ts and also place the imported Module under `@NgModule`.
 
 ```
 
-import {GpLibMarkdownWidgetModule} from 'gp-lib-markdown-widget';
+import {GpMarkdownWidgetModule} from 'gp-markdown-widget';
 
 @NgModule({
 
   imports: [
 
-    GpLibMarkdownWidgetModule    
+    GpMarkdownWidgetModule    
 
       ]
 
@@ -110,12 +110,12 @@ npm run deploy
     Installation command:  ```npm i ngx-markdown@8.2.1 ``` 
 
 
-2. Grab the Markdown Widget **[Latest Release Binary](https://labcase.softwareag.com/projects/gp-markdown-widget/storage/show/Releases/gp-lib-markdown-widget-1.0.0.tgz)**
+2. Grab the Markdown Widget **[Latest Release Binary](https://labcase.softwareag.com/projects/gp-markdown-widget/storage/show/Releases/gp-markdown-widget-1.0.0.tgz)**
 
 3. Install the Binary file in app builder.
 
 ```
-npm i <binary  file  path>/gp-lib-markdown-widget-1.0.0.tgz
+npm i <binary  file  path>/gp-markdown-widget-1.0.0.tgz
 ```
 
 **Note:** If you don't find branding folder then please follow [Cumulocity Branding](https://cumulocity.com/guides/web/angular/#branding)
@@ -129,17 +129,17 @@ npm i <binary  file  path>/gp-lib-markdown-widget-1.0.0.tgz
 
   @import '~@c8y/style/extend.less';
   ```
-6. Import GpLibMarkdownWidgetModule in app.module.ts and also place the imported Module under `@NgModule`.
+6. Import GpMarkdownWidgetModule in app.module.ts and also place the imported Module under `@NgModule`.
 
   ```
 
-import {GpLibMarkdownWidgetModule} from 'gp-lib-markdown-widget';
+import {GpMarkdownWidgetModule} from 'gp-markdown-widget';
 
   @NgModule({
 
     imports: [
 
-      GpLibMarkdownWidgetModule    
+      GpMarkdownWidgetModule    
 
         ]
 

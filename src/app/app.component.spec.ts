@@ -16,7 +16,7 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'lib-markdown-widget'`, () => {
+  it(`should have as title 'gp-markdown-widget'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
     expect(app.title).toEqual('lib-markdown-widget');
@@ -26,6 +26,6 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('lib-markdown-widget app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('gp-markdown-widget app is running!');
   });
 });
