@@ -1,13 +1,16 @@
-# Cumulocity Widget - Markdown Widget 
+# Cumulocity Widget - Markdown Widget[<img width="35" src="https://user-images.githubusercontent.com/67993842/97668428-f360cc80-1aa7-11eb-8801-da578bda4334.png"/>](https://github.com/SoftwareAG/cumulocity-markdown-widget/releases/download/2.0.0/gp-markdown-widget-1.1.0.zip)
+
 
 ##  Overview
 This is an Angular 8 library widget that parses the mardown text to html. 
 To deliver the expected functionality one need to add the markdown text in the configuration.
 
+## USeCase
+![markdown-usecase](https://user-images.githubusercontent.com/70568133/101155512-413f9600-364d-11eb-8d6f-df11cb2c73e2.PNG)
 
 ## Runtime Widget Installation (Without Application Deployment)
 
-* This widget support runtime deployment. Download [Runtime Binary](https://labcase.softwareag.com/projects/gp-markdown-widget/storage/show/Releases/Runtime%20Widget/gp-markdown-widget-1.1.0.zip) and follow runtime deployment instruction from [here](https://github.com/SoftwareAG/cumulocity-runtime-widget-loader)
+* This widget support runtime deployment. Download [Runtime Binary](https://github.com/SoftwareAG/cumulocity-markdown-widget/releases/download/2.0.0/gp-markdown-widget-1.1.0.zip) and follow runtime deployment instruction from [here](https://github.com/SoftwareAG/cumulocity-runtime-widget-loader)
 
 ## Installation of widget through Appbuilder or Cockipt Deployment
   
@@ -54,7 +57,7 @@ To deliver the expected functionality one need to add the markdown text in the c
     Installation command:  ```npm i ngx-markdown@8.2.1 ``` 
 
 
-2. Grab the Markdown Widget **[Latest Release Binary](https://labcase.softwareag.com/projects/gp-markdown-widget/storage/show/Releases/gp-markdown-widget-1.0.0.tgz)**
+2. Grab the Markdown Widget **[Latest Release Binary](https://github.com/SoftwareAG/cumulocity-markdown-widget/releases/download/2.0.0/gp-markdown-widget-2.0.0.tgz)**
 
 3. Install the Binary file in app builder.
 
@@ -110,7 +113,7 @@ npm run deploy
     Installation command:  ```npm i ngx-markdown@8.2.1 ``` 
 
 
-2. Grab the Markdown Widget **[Latest Release Binary](https://labcase.softwareag.com/projects/gp-markdown-widget/storage/show/Releases/gp-markdown-widget-1.0.0.tgz)**
+2. Grab the Markdown Widget **[Latest Release Binary](https://github.com/SoftwareAG/cumulocity-markdown-widget/releases/download/2.0.0/gp-markdown-widget-2.0.0.tgz)**
 
 3. Install the Binary file in app builder.
 
@@ -174,7 +177,7 @@ npm run deploy
 
 1. Clone the repository:
 ```
-git clone git@labcase.softwareag.com:labcase/gp-markdown-widget.git
+git clone https://github.com/SoftwareAG/cumulocity-markdown-widget.git
 ```
 2. Change directory:
 
@@ -225,16 +228,8 @@ Congratulations! Markdown Widget is configured.
 
 - Enter the Markdown text in the the text area of the configuration.
 
+![markdown-config](https://user-images.githubusercontent.com/70568133/101155503-400e6900-364d-11eb-858f-c76d484a7247.PNG)
 ## Troubleshooting
-
-### Report a bug
-
-Create a new issue in the [Issues](https://labcase.softwareag.com/projects/gp-markdown-widget/issues) section of this Labcase project and assign it to *Owner Full Name*. Set the tracker to `Bug` and provide a meaningful title. Make sure to describe the bug as detailed as possible and how the bug can be reproduced.
-
-### Request a feature
-
-Create a new issue in the [Issues](https://labcase.softwareag.com/gp-markdown-widget/issues) section of this Labcase project and assign it to *Owner Full Name*. Set the tracker to `Requirement` and provide a meaningful title. Shortly describe the feature.
-
 
 ------------------------------
   
