@@ -10,7 +10,7 @@ To deliver the expected functionality one need to add the markdown text in the c
 
 ## Runtime Widget Installation (Without Application Deployment)
 
-* This widget support runtime deployment. Download [Runtime Binary](https://github.com/SoftwareAG/cumulocity-markdown-widget/releases/download/2.0.0/gp-markdown-widget-1.1.0.zip) and follow runtime deployment instruction from [here](https://github.com/SoftwareAG/cumulocity-runtime-widget-loader)
+* This widget support runtime deployment. Download [Runtime Binary](https://github.com/SoftwareAG/cumulocity-markdown-widget/releases/download/2.0.0/gp-markdown-widget-1.1.0.zip) and use application builder to install your runtime widget.
 
 ## Installation of widget through Appbuilder or Cockipt Deployment
   
