@@ -1,7 +1,7 @@
 # Cumulocity Widget - Markdown Widget[<img width="35" src="https://user-images.githubusercontent.com/67993842/97668428-f360cc80-1aa7-11eb-8801-da578bda4334.png"/>](https://github.com/SoftwareAG/cumulocity-markdown-widget/releases/download/2.0.0/gp-markdown-widget-1.1.0.zip)
 
 
-##  Overview
+##  Overview 
 This is an Angular 8 library widget that parses the mardown text to html. 
 To deliver the expected functionality one need to add the markdown text in the configuration.
 
